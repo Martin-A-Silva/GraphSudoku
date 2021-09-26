@@ -1,4 +1,4 @@
-package com.example.helloworld.ui.components
+package com.example.helloworld.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*

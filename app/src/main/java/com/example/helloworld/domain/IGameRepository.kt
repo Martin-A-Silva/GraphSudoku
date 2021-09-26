@@ -37,7 +37,6 @@ interface IGameRepository {
     )
 
     suspend fun getSettings(
-        settings: Settings,
         onSuccess: (Settings) -> Unit,
         onError: (Exception) -> Unit
     )

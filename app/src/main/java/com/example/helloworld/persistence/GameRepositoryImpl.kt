@@ -1,5 +1,6 @@
 package com.example.helloworld.persistence
 
+import com.example.helloworld.computationlogic.puzzleIsComplete
 import com.example.helloworld.domain.*
 import java.lang.Exception
 
@@ -115,7 +116,7 @@ class GameRepositoryImpl (
         )
     }
 
-    override suspend fun getSettings(settings: Settings, onSuccess: (Settings) -> Unit, onError: (Exception) -> Unit
+    override suspend fun getSettings(onSuccess: (Settings) -> Unit, onError: (Exception) -> Unit
     ) {
         when (val getSettingsResult = settingsStorage.getSettings()){
             is SettingsStorageResult.OnError -> onError(getSettingsResult.exception)

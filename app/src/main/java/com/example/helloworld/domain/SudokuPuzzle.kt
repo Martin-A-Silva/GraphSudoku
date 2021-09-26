@@ -1,5 +1,6 @@
 package com.example.helloworld.domain
 
+import com.example.helloworld.computationlogic.buildNewSudoku
 import java.io.Serializable
 import java.util.*
 import kotlin.collections.LinkedHashMap

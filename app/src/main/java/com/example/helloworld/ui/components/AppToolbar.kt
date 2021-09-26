@@ -1,4 +1,4 @@
-package com.example.helloworld.ui.components
+package com.example.helloworld.ui.newgame
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
